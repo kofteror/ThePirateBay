@@ -22,7 +22,7 @@ for i in range(1,int(episode)+1):
     html = response.read()
     parser=pq(html)
     tag=parser("td a")
-   # print tag
+    print tag
     flag =0
     for t in tag:
         if (flag):
